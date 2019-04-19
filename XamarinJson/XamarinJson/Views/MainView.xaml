@@ -47,7 +47,7 @@
                                 IsColumnChooserEnabled="False"
                                 IsColumnMenuEnabled="False"
                                 IsPullToRefreshEnabled="True"
-                                SelectedDataObject="{Binding SelectedEmployee}"
+                                SelectedDataObject="{Binding SelectedEmployee, Mode=TwoWay}"
                                 PullToRefreshCommand="{Binding PullToRefreshCommand}">
             <dxGrid:GridControl.Columns>
                 <!-- Empno -->
