@@ -132,7 +132,6 @@
 			Text="Delete"
 			Command="{Binding DeleteCommand}"/>
 
-
         <Button
 			Grid.Row="2"
 			Grid.Column="1"
@@ -143,7 +142,7 @@
         <Entry x:Name="EntryID" 
                Grid.Row="2" Grid.Column="2"
                Text="{Binding RouteCode, Mode=TwoWay}"
-               ReturnCommand="EntryCompletedCommand"
+               ReturnCommand="{Binding EntryCompletedCommand}"
                ReturnCommandParameter="{x:Reference EntryID}">
             <!--<Entry.Behaviors>
                     <behaviors:EventToCommandBehavior

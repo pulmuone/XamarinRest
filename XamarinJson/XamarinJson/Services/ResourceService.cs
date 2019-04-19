@@ -14,7 +14,7 @@ namespace XamarinJson.Services
     {
         HttpClient client;
         private static readonly ResourceService _instance = new ResourceService();
-        public static string RestUrl = "http://127.0.0.1:8080";
+        public static string RestUrl = "http://127.0.0.1:8090"; //ip주소 변경
 
         public List<Employee> Employees { get; private set; }
         private ResourceService()
